@@ -1,0 +1,197 @@
+html{
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      box-sizing: border-box;
+}
+
+header{
+  background-color: #06D6A0;
+  padding: 0 20px;
+  height: 60px;
+  padding:1px;
+  text-align: left;
+}
+
+.titlemenu{
+  position: absolute;
+  right: 0;
+  top: 28px;
+}
+
+body{
+  margin: 0;
+}
+
+div{
+  display: block;
+}
+
+.logo {
+  color:white;
+  margin: 0;
+  float: left;
+  line-height: 60px;
+  font-size: 18px;
+  padding-left: 18px;
+}
+
+.navbar{
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+.headernav {
+  position: relative;
+  float: right;
+  bottom: 23px;
+}
+
+.nav-item{
+  display: inline-block;
+  margin-right: 10px;
+  line-height: 60px;
+  margin-bottom: 5px;
+  text: 20px;
+  color: #0000EE;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+li {
+  display: inline-block;
+
+}
+
+.hero-image {
+  width: 60%;
+  float: left;
+}
+
+.product-item > img{
+  border: 3px solid black;
+}
+
+
+section{
+  max-width: 900px;
+  margin: auto;
+  overflow: hidden;
+}
+section {
+   max-width: 900px;
+   margin: auto;
+ }
+
+img{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.hero-content {
+  float:right;
+  font-size: 25px;
+  width: 40%;
+}
+
+#home{
+  overflow: hidden;
+  background-color: #26547C;
+  color: white;
+}
+
+h1{
+  border-bottom: 0;
+}
+
+h2{
+  display: block;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3{
+  display: block;
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+p{
+display: block;
+margin-bottom: 1em;
+margin-right: 1em;
+margin-top: 0px;
+margin-left: 0px;
+
+}
+
+.call-to-action{
+    background-color: #FFD166;
+    font-size: 1.2em;
+}
+
+.cats{
+    background-color: #FFD166;
+    padding: 30px 20px;
+}
+
+.products{
+  background-color: #F2F2F2;
+    padding: 30px 20px;
+    font-size: 1.2em;
+}
+
+.about{
+  background-color: #26547C;
+  color: white;
+  padding: 30px 20px;
+  font-size: 1.2em;
+}
+
+.product-wrapper {
+    overflow: hidden;
+}
+
+.product-item{
+  float: left;
+  width: 33%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+
+.fun, .values, .meow {
+  transform: uppercase;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ec7063;
+  float: left;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.call-to-action{
+  padding: 30px 20px
+}
+
+.team-fun, .team-values, .team-meow{
+  float: left;
+  width: 33.33333%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #EF476F;
+}
+
+footer {
+  background-color: #06D6A0;
+  height: 50px;
+  line-height: 50px;
+  text-align: right;
+  padding: 0 20px;
+}
+
+.clear {
+  clear:both;
+}
